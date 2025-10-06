@@ -206,7 +206,7 @@ export default function TamperDashboard() {
           </div>
           <div>
             <h1 className="text-3xl font-bold text-white mb-1">
-              Tamper Detection & Prevention Dashboard
+              KIMAYA- TAMPER DETECTION DASHBOARD
             </h1>
             <p className="text-sm text-gray-400">TPTL - Advanced IoT Security & Blockchain Verification</p>
           </div>
