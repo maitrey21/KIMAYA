@@ -199,11 +199,8 @@ export default function TamperDashboard() {
   <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950 text-white p-6">
     {/* Header */}
     <div className="mb-8">
-      <div className="flex items-center justify-between">
-        <div className="flex items-center gap-4">
-          <div className="w-14 h-14 bg-cyan-500 rounded-xl flex items-center justify-center text-2xl font-bold">
-            T
-          </div>
+      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+        <div className="flex items-start md:items-center gap-4 flex-1 min-w-0">
           <div>
             <h1 className="text-3xl font-bold text-white mb-1">
               KIMAYA- TAMPER DETECTION DASHBOARD
@@ -211,15 +208,15 @@ export default function TamperDashboard() {
             <p className="text-sm text-gray-400">TPTL - Advanced IoT Security & Blockchain Verification</p>
           </div>
         </div>
-        <div className="flex gap-3">
-          <button className="px-4 py-2 bg-slate-800 hover:bg-slate-700 rounded-lg border border-slate-700 text-sm font-medium transition-all flex items-center gap-2">
+        <div className="flex gap-3 md:justify-end flex-wrap">
+          <button className="px-4 py-2 bg-slate-800 hover:bg-slate-700 rounded-lg border border-slate-700 text-sm font-medium transition-all flex items-center gap-2 w-full md:w-auto">
             <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
               <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/>
               <path fillRule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clipRule="evenodd"/>
             </svg>
             Audio On
           </button>
-          <button className="px-4 py-2 bg-green-500/20 hover:bg-green-500/30 rounded-lg border border-green-500/30 text-green-400 text-sm font-medium transition-all flex items-center gap-2">
+          <button className="px-4 py-2 bg-green-500/20 hover:bg-green-500/30 rounded-lg border border-green-500/30 text-green-400 text-sm font-medium transition-all flex items-center gap-2 w-full md:w-auto">
             <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
             System Online
           </button>
