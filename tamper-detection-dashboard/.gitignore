@@ -1,0 +1,13 @@
+node_modules
+.env
+build
+dist
+logs
+*.log
+.DS_Store
+.cache
+coverage
+frontend/.env
+backend/.env
+
+
